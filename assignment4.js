@@ -14,15 +14,23 @@
 
            // nayem age and marks
 
-var nayeemAge = 75;
-var nayeemMarks = 85;
+
+var nayeemMarks = 82;
+var nayeemAge = 72; 
               //    frien age
 
-var age = 92;
+var age = 82;
 
 
 if ( age > 80 && age <= 90){
-    console.log("then go for a lunch.");    
+    console.log("then go for a lunch.");
+
+    if ( nayeemMarks > 80){
+        console.log(" inside your friend score", nayeemMarks );     
+    } 
+    else{(ok)
+
+    }  
 }
 
 else if( age >= 60 && age < 80){
@@ -40,12 +48,13 @@ else if ( age > 0 && age < 40){
     console.log(" block your friend");  
 }
 else {
-    if ( nayeemMarks > 80){
-        console.log(" inside your friend score", nayeemMarks );     
-    }
+   
     if (nayeemAge < 80){
         console.log (" go to home and sleep and act sad",nayeemAge  );
         
-    }                      
+    }  
+    else{
+
+    }                    
     
 }                      
